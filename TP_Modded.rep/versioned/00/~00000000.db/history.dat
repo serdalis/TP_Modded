@@ -1,0 +1,9 @@
+1;Serda;1624278728887;main file
+2;Serda;1624289411499;Changed VP to 5000. Changed Version to 1.01
+3;Serda;1624370010193;Changed Weapon Labels... not structs yet.
+4;Serda;1624373254748;Maybe moved mediums
+5;Serda;1624544151947;Light Med and Heavy Lancer Added!
+6;Serda;1624620485218;Defining some arrays of pairs.
+7;Serda;1624632462497;Redone Hid24Init function, now have many spare bytes for more init. Pointed to new HID24 array, but nothing else is.
+8;Serda;1624633936333;Hid24 array successfully moved but not resized.
+9;Serda;1625034797104;Resized HUD array to 0x37B, not working. Lots of data / fuction updates.
