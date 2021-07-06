@@ -15,3 +15,59 @@
 007f6e80
 007f7430
 007f8ff8
+
+		00000024 WeaponBar_GunIcon_Missile
+	{
+		TextureName - NoCursor   ( Navy    ) String '640hud_89'
+		TextureArea - NoCursor   ( Navy    ) Rect( 151, 0, 182, 31 )	# left,top,right,bottom
+		TextureName - CursorOver ( Navy    ) String '640hud_90'
+		TextureArea - CursorOver ( Navy    ) Rect( 151, 0, 182, 31 )	# left,top,right,bottom
+		TextureName - CursorDown ( Navy    ) String '640hud_91'
+		TextureArea - CursorDown ( Navy    ) Rect( 151, 0, 182, 31 )	# left,top,right,bottom
+		TextureName - Disabled   ( Navy    ) String '640hud_89'
+		TextureArea - Disabled   ( Navy    ) Rect( 151, 0, 182, 31 )	# left,top,right,bottom
+		TextureName - NoCursor   ( Pirate  ) String '640hud_89'
+		TextureArea - NoCursor   ( Pirate  ) Rect( 151, 0, 182, 31 )	# left,top,right,bottom
+		TextureName - CursorOver ( Pirate  ) String '640hud_90'
+		TextureArea - CursorOver ( Pirate  ) Rect( 151, 0, 182, 31 )	# left,top,right,bottom
+		TextureName - CursorDown ( Pirate  ) String '640hud_91'
+		TextureArea - CursorDown ( Pirate  ) Rect( 151, 0, 182, 31 )	# left,top,right,bottom
+		TextureName - Disabled   ( Pirate  ) String '640hud_89'
+		TextureArea - Disabled   ( Pirate  ) Rect( 151, 0, 182, 31 )	# left,top,right,bottom
+		TextureName - NoCursor   ( Procyon ) String '640hud_89'
+		TextureArea - NoCursor   ( Procyon ) Rect( 151, 0, 182, 31 )	# left,top,right,bottom
+		TextureName - CursorOver ( Procyon ) String '640hud_90'
+		TextureArea - CursorOver ( Procyon ) Rect( 151, 0, 182, 31 )	# left,top,right,bottom
+		TextureName - CursorDown ( Procyon ) String '640hud_91'
+		TextureArea - CursorDown ( Procyon ) Rect( 151, 0, 182, 31 )	# left,top,right,bottom
+		TextureName - Disabled   ( Procyon ) String '640hud_89'
+		TextureArea - Disabled   ( Procyon ) Rect( 151, 0, 182, 31 )	# left,top,right,bottom
+	}
+
+    	00000024 WeaponBar_GunIcon_Large_Missile
+	{
+		TextureName - NoCursor   ( Navy    ) String '640hud_89'
+		TextureArea - NoCursor   ( Navy    ) Rect( 1, 156, 49, 204 )	# left,top,right,bottom
+		TextureName - CursorOver ( Navy    ) String '640hud_89'
+		TextureArea - CursorOver ( Navy    ) Rect( 1, 156, 49, 204 )	# left,top,right,bottom
+		TextureName - CursorDown ( Navy    ) String '640hud_89'
+		TextureArea - CursorDown ( Navy    ) Rect( 1, 156, 49, 204 )	# left,top,right,bottom
+		TextureName - Disabled   ( Navy    ) String '640hud_89'
+		TextureArea - Disabled   ( Navy    ) Rect( 1, 156, 49, 204 )	# left,top,right,bottom
+		TextureName - NoCursor   ( Pirate  ) String '640hud_89'
+		TextureArea - NoCursor   ( Pirate  ) Rect( 1, 156, 49, 204 )	# left,top,right,bottom
+		TextureName - CursorOver ( Pirate  ) String '640hud_89'
+		TextureArea - CursorOver ( Pirate  ) Rect( 1, 156, 49, 204 )	# left,top,right,bottom
+		TextureName - CursorDown ( Pirate  ) String '640hud_89'
+		TextureArea - CursorDown ( Pirate  ) Rect( 1, 156, 49, 204 )	# left,top,right,bottom
+		TextureName - Disabled   ( Pirate  ) String '640hud_89'
+		TextureArea - Disabled   ( Pirate  ) Rect( 1, 156, 49, 204 )	# left,top,right,bottom
+		TextureName - NoCursor   ( Procyon ) String '640hud_89'
+		TextureArea - NoCursor   ( Procyon ) Rect( 1, 156, 49, 204 )	# left,top,right,bottom
+		TextureName - CursorOver ( Procyon ) String '640hud_89'
+		TextureArea - CursorOver ( Procyon ) Rect( 1, 156, 49, 204 )	# left,top,right,bottom
+		TextureName - CursorDown ( Procyon ) String '640hud_89'
+		TextureArea - CursorDown ( Procyon ) Rect( 1, 156, 49, 204 )	# left,top,right,bottom
+		TextureName - Disabled   ( Procyon ) String '640hud_89'
+		TextureArea - Disabled   ( Procyon ) Rect( 1, 156, 49, 204 )	# left,top,right,bottom
+	}
