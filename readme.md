@@ -33,4 +33,9 @@ Debugger:
 ## Editing the Exe
 1. Its all a guessing game, good luck.
 
+## Versions
+### 1.01
+ - VP limit set to 5000
+ - Arc Fire / Star Mortar removed from AI weapon selection
+ - Light, Med, Heavy Lancer added to AI weapon selection
  
