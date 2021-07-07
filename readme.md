@@ -24,11 +24,13 @@ Debugger:
  5. Open the exe project you'll be working with, make sure the current version matches the exported exe version.
  6. Start the debugger using the WinDbg via GADP command.
  7. Select the location of the exe in your TP folder.
- 8. Run the following commands:
-    .kill 
-    .createdir \<Location of Treasure Planet Folder\>
-    .create \<Path to Treasure Planet Exe + Exe Name\>
-    g
+ 8. Run the following commands (delete the brackets):
+```
+    .kill (kills current debugged process if there is any)
+    .createdir "Location of Treasure Planet Folder" (sets the dir to create the debug session in)
+    .create "Path to Treasure Planet Exe + Exe Name" (sets the exe to use when creating the debug session)
+    g (go, till next breakpoint)
+```
 
 ## Editing the Exe
 1. Its all a guessing game, good luck.
