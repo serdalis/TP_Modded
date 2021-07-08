@@ -1,8 +1,14 @@
 # Getting Started
 
+## Current areas of interest
+ - Looking at the ship files we can see that there are secions named "FactoryType String", these types of entries match up with an initialisation function that assigns a the same name to a value in a pair. If we can track where this pair is being used, we can see where the factory of that name is being used and potentially be able to uncover / name a bunch of code from it.
+ - Currently the InitFactories function is an area of interest. Following the code in this we can find where the ship ConstData is being initialised in CreateShipConstData if we can look in the memory while the game is running and see what the ship struct looks like, we may be able to extend / change it.
+
 ## Ghidra
 Ghidra - Currently using version 10
 Download the git repo and open the project inside in ghidra.
+
+ - Currently we are using ghidras versioning system for the file, be sure to checkout the file before making modifications, and checking in the file before doing any ASM modding since it's easy to get lost or do something wrong. Be sure to check the files in before pushing to git.
 
 ### Committing to git
 Because its really hard to see what changes are committed with each commit into git, we've decided that a C/C++ export needs to be included in the git push so the changes are simple visible.
@@ -34,6 +40,12 @@ Debugger:
 
 ## Editing the Exe
 1. Its all a guessing game, good luck.
+
+### More on the Exe
+This version of the Exe has the DRM disabled and will work with the steam version.
+We couldn't use the steam version since steam runs an obfuscator over the exe when the steam wrapper is added.
+
+This version of the exe also includes 200kB of extra space in the .mod memory partition which is there to add new strings / data / move around arrays we're intending to extend.
 
 ## Versions
 ### 1.01
